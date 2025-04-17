@@ -1,4 +1,4 @@
-import '../css/MovieCard.css'
+import '../css/Home.css'
 
 import MovieCard from "../components/MovieCard"
 import { useState, useEffect } from "react"
