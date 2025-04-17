@@ -1,7 +1,7 @@
 .favorites {
-    padding: 2rem;
-    width: 100%;
-    box-sizing: border-box;
+  padding: 2rem 0;
+  width: 100%;
+  box-sizing: border-box;
   }
   
   .favorites h2 {
@@ -48,4 +48,9 @@
   
   .movies-grid > * {
     animation: fadeIn 0.3s ease-out forwards;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
   }
